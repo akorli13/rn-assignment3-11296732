@@ -8,10 +8,7 @@ import OngoingTask from './components/OngoingTask';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Header/> 
-      <Search/> 
-      <Categories/>
-      <OngoingTask/>
+      <Header />
     </View>
     
   );
